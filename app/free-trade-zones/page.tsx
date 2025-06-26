@@ -250,7 +250,7 @@ export default function FreeTradeZonesPage() {
             </p>
 
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-right" data-aos-delay="200">
+              <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-left" data-aos-delay="200">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">Submit an Application</h3>
                 <p className="text-gray-500">
                   Provide a letter of application to NEPZA or OGEFZA, along with required documents. (PPT – Free Trade
@@ -271,7 +271,7 @@ export default function FreeTradeZonesPage() {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-right" data-aos-delay="400">
+              <div className="bg-white p-6 rounded-lg shadow-sm" data-aos="fade-up" data-aos-delay="400">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">Meet Capital Requirements</h3>
                 <p className="text-gray-500">
                   A minimum share capital of $100,000 is required for Free Zone Enterprises. (FAQs - NEPZA - Nigeria
@@ -338,7 +338,7 @@ export default function FreeTradeZonesPage() {
       {/* Footer */}
       <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" >
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"

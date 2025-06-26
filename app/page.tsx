@@ -251,7 +251,7 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6" data-aos="fade-right" data-aos-duration="800">
+            <div className="space-y-6" data-aos="fade-left" data-aos-duration="800">
               <h2 className="text-4xl font-bold text-gray-900">Together we can do more. Feel free to say hello.</h2>
               <Button size="lg" className="bg-purple-500 hover:bg-purple-300 text-white">
                 Contact us
@@ -273,7 +273,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"

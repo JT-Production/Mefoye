@@ -123,7 +123,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Mission Side */}
-            <div className="space-y-8" data-aos="fade-right" data-aos-duration="800">
+            <div className="space-y-8" data-aos="fade-left" data-aos-duration="800">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
                 <p className="text-gray-500 italic text-lg">
@@ -170,7 +170,7 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" >
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"

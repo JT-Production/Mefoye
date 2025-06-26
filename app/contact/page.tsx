@@ -192,7 +192,7 @@ export default function ContactPage() {
       {/* Footer */}
       <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" >
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"
