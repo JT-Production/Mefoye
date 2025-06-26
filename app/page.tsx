@@ -14,7 +14,7 @@ export default function HomePage() {
     },
     {
       title: "Payroll Management",
-      image: "/iamges/Payroll.png",
+      image: "/images/Payroll.png",
       description: "Comprehensive payroll processing and management",
     },
     {
@@ -39,7 +39,7 @@ export default function HomePage() {
     },
     {
       title: "Prestige Premium Services",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/premium.jpg",
       description: "Luxury business services for executive needs",
     },
     {
@@ -49,7 +49,7 @@ export default function HomePage() {
     },
     {
       title: "Waybill and Logistics Services",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/waybill.jpg",
       description: "Efficient logistics and supply chain management",
     },
     {
@@ -64,12 +64,12 @@ export default function HomePage() {
     },
     {
       title: "Monitoring and Evaluation",
-      image: "/",
+      image: "/images/M&E.png",
       description: "Performance monitoring and evaluation systems",
     },
     {
       title: "Oil and Gas Consulting",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/oil&gas.jpg",
       description: "Specialized consulting for oil and gas industry",
     },
   ]
@@ -99,7 +99,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden h-screen ">
+      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden h-screen md:h-auto">
         <div className="absolute inset-0 md:block hidden">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-500 to-purple-300 transform skew-x-12 translate-x-1/4"></div>
         </div>
@@ -124,13 +124,13 @@ export default function HomePage() {
                 Your success is our priority
               </p>
             </div>
-            <div className="relative md:block hidden" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div className="relative md:block hidden " data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
               <Image
                 src="/images/firm2-slider-man.png"
                 alt="Professional businessman"
                 width={500}
                 height={500}
-                className="w-full h-500"
+                className="w-full scale-[1.25]  object-cover h-800"
               />
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function HomePage() {
                   Your Trusted Partner for Comprehensive Business Solutions
                 </h3>
                 <p className="text-gray-500 leading-relaxed">
-                  At OutSource Pro Limited, we specialize in delivering top-tier outsourcing services designed to
+                  At Mefoye Limited, we specialize in delivering top-tier outsourcing services designed to
                   enhance your business efficiency and drive sustainable growth. With a commitment to excellence,
                   innovation, and client satisfaction, we provide tailored solutions that meet your unique business
                   needs across various operations and sustainable services.
@@ -179,7 +179,7 @@ export default function HomePage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16" data-aos="fade-up">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Services OutSource Pro Offers</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Services Mefoye Offers</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
@@ -216,7 +216,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-8" data-aos="fade-up">
-              Why Choose OutSource Pro Limited?
+              Why Choose Mefoye Limited?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {whyChooseUs.map((item, index) => (
@@ -239,7 +239,7 @@ export default function HomePage() {
             </div>
             <div className="mt-8 text-center" data-aos="fade-up" data-aos-delay="800">
               <p className="text-purple-100">
-                Let OutSource Pro Limited transform your business operations with reliable, scalable, and innovative
+                Let Mefoye Limited transform your business operations with reliable, scalable, and innovative
                 business solutions.
               </p>
             </div>
@@ -277,7 +277,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"
-                alt="OutSource Pro Limited"
+                alt="Mefoye Limited"
                 width={150}
                 height={40}
                 className=" w-100"
@@ -318,10 +318,9 @@ export default function HomePage() {
           </div>
           <div
             className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
-            data-aos="fade-up"
-            data-aos-delay="200"
+           
           >
-            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
+            <p>&copy; 2025 Mefoye Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>

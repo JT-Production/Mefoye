@@ -2,11 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import {
   MapPin,
-  Phone,
-  Mail,
   Facebook,
   Twitter,
-  Instagram,
   CheckCircle,
   Building,
   Globe,
@@ -324,7 +321,7 @@ export default function FreeTradeZonesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up" data-aos-duration="800">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">Ready to Establish Your Business in Nigeria's FTZs?</h2>
           <p className="text-xl text-gray-500 mb-8 max-w-3xl mx-auto">
-            Let OutSource Pro Limited guide you through the process of setting up and operating within Nigeria's Free
+            Let Mefoye Limited guide you through the process of setting up and operating within Nigeria's Free
             Trade Zones. Our expertise ensures compliance and maximizes your investment benefits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
@@ -345,7 +342,7 @@ export default function FreeTradeZonesPage() {
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"
-                alt="OutSource Pro Limited"
+                alt="Mefoye Limited"
                 width={150}
                 height={40}
                 className=" w-100"
@@ -386,10 +383,9 @@ export default function FreeTradeZonesPage() {
           </div>
           <div
             className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
-            data-aos="fade-up"
-            data-aos-delay="200"
+          
           >
-            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
+            <p>&copy; 2025 Mefoye Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>

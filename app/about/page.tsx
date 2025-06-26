@@ -11,7 +11,7 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden h-screen">
+      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden h-screen md:h-auto">
         <div className="absolute inset-0 md:block hidden">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-500 to-purple-300 transform skew-x-12 translate-x-1/4"></div>
         </div>
@@ -24,7 +24,7 @@ export default function AboutPage() {
                 </h1>
                 <div className="space-y-4 text-gray-500 text-lg md:text-start ">
                   <p data-aos="fade-up" data-aos-delay="300">
-                    Outsource Pro Limited is a premier Nigerian firm delivering comprehensive onshore and offshore
+                    Mefoye Limited is a premier Nigerian firm delivering comprehensive onshore and offshore
                     outsourcing solutions designed to meet the dynamic operational demands of the oil and gas industry.
                   </p>
                   <p data-aos="fade-up" data-aos-delay="300">
@@ -41,7 +41,7 @@ export default function AboutPage() {
                 alt="Professional businessman"
                 width={300}
                 height={500}
-                className="w-full h-auto"
+                className="w-full scale-[1.25] h-auto"
               />
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
       <section className="py-16 bg-purple-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up" data-aos-duration="800">
           <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
-            Outsource Pro focuses on a wide range of industries, reflecting its versatile service offering:
+            Mefoye focuses on a wide range of industries, reflecting its versatile service offering:
           </h2>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-12 text-gray-500 text-lg leading-relaxed">
             <p data-aos="fade-up" data-aos-delay="100">
-              In addition, Outsource Pro Limited specializes in expatriate and immigration services for oil and gas
+              In addition, Mefoye Limited specializes in expatriate and immigration services for oil and gas
               personnel, including work permits, visa renewals, and compliance with all statutory immigration
               requirements—ensuring seamless onboarding and legal residence for foreign professionals working in
               Nigeria's energy sector.
@@ -74,7 +74,7 @@ export default function AboutPage() {
             </p>
             <p data-aos="fade-up" data-aos-delay="300">
               With deep regulatory insight, operational expertise, and a footprint that spans remote offshore platforms
-              to complex onshore sites, Outsource Pro Limited empowers clients to reduce risk, streamline operations,
+              to complex onshore sites, Mefoye Limited empowers clients to reduce risk, streamline operations,
               and maintain compliance and competitiveness in Nigeria's highly regulated and performance-driven oil and
               gas environment.
             </p>
@@ -84,7 +84,7 @@ export default function AboutPage() {
 
       {/* Support Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative" data-aos="fade-right" data-aos-duration="800">
               <Image
@@ -92,7 +92,7 @@ export default function AboutPage() {
                 alt="Professional businessman with tablet"
                 width={300}
                 height={500}
-                className="w-full h-auto rounded-lg"
+                className="w-full h-auto scale-[1.25] rounded-lg"
               />
             </div>
             <div className="space-y-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
@@ -118,7 +118,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16" data-aos="fade-up">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Company Policies</h2>
-            <p className="text-gray-500 text-lg">Outsource Pro is governed by a strong internal framework:</p>
+            <p className="text-gray-500 text-lg">Mefoye is governed by a strong internal framework:</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -135,7 +135,7 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Mission Statement</h3>
                 <div className="space-y-4 text-gray-500">
                   <p>
-                    "At Outsource Pro, we empower businesses with a full spectrum of world-class services — from
+                    "At Mefoye, we empower businesses with a full spectrum of world-class services — from
                     staffing and payroll management to training, facility solutions, travel logistics, and IT support.
                   </p>
                   <p>
@@ -174,7 +174,7 @@ export default function AboutPage() {
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"
-                alt="OutSource Pro Limited"
+                alt="Mefoye Limited"
                 width={150}
                 height={40}
                 className=" w-100"
@@ -215,10 +215,9 @@ export default function AboutPage() {
           </div>
           <div
             className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            
           >
-            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
+            <p>&copy; 2025 Mefoye Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>

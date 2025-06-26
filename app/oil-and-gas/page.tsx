@@ -198,7 +198,7 @@ export default function OilAndGasPage() {
             <div className="space-y-4">
               <Image
                 src="/images/Mefeyo-logo2.png"
-                alt="OutSource Pro Limited"
+                alt="Mefoye Limited"
                 width={150}
                 height={40}
                 className=" w-100"
@@ -239,10 +239,9 @@ export default function OilAndGasPage() {
           </div>
           <div
             className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            
           >
-            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
+            <p>&copy; 2025 Mefoye Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>
