@@ -46,14 +46,14 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-50 to-blue-100 overflow-hidden">
+      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-600 to-blue-500 transform skew-x-12 translate-x-1/4"></div>
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-500 to-purple-500 transform skew-x-12 translate-x-1/4"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center" data-aos="fade-up" data-aos-duration="1000">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
-              <span className="text-blue-600">Contact us</span> to get the latest offers and deals
+              <span className="text-purple-500">Contact us</span> to get the latest offers and deals
             </h1>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                   value={formData.name}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-blue-600 focus:ring-0 placeholder-gray-500"
+                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-purple-500 focus:ring-0 placeholder-gray-500"
                 />
               </div>
 
@@ -96,7 +96,7 @@ export default function ContactPage() {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-blue-600 focus:ring-0 placeholder-gray-500"
+                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-purple-500 focus:ring-0 placeholder-gray-500"
                 />
               </div>
 
@@ -108,18 +108,18 @@ export default function ContactPage() {
                   value={formData.subject}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-blue-600 focus:ring-0 placeholder-gray-500"
+                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-purple-500 focus:ring-0 placeholder-gray-500"
                 />
               </div>
 
-              <div data-aos="fade-left" data-aos-delay="600">
+              <div data-aos="fade-left" data-aos-delay="500">
                 <Textarea
                   name="message"
                   placeholder="Your message (optional)"
                   value={formData.message}
                   onChange={handleInputChange}
                   rows={6}
-                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-blue-600 focus:ring-0 placeholder-gray-500 resize-none"
+                  className="w-full px-0 py-4 text-lg border-0 border-b-2 border-gray-300 rounded-none bg-transparent focus:border-purple-500 focus:ring-0 placeholder-gray-500 resize-none"
                 />
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
             <div className="flex justify-start" data-aos="fade-up" data-aos-delay="700">
               <Button
                 type="submit"
-                className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors"
+                className="bg-purple-500 hover:bg-purple-300 text-white px-8 py-3 rounded-full font-semibold text-lg transition-colors"
               >
                 Submit
               </Button>
@@ -142,10 +142,10 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Office Address */}
             <div className="text-center md:text-left" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-xl font-bold text-blue-600 mb-4">Office Address</h3>
+              <h3 className="text-xl font-bold text-purple-500 mb-4">Office Address</h3>
               <div className="space-y-2 text-gray-700">
                 <p className="flex items-start justify-center md:justify-start">
-                  <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0 text-blue-600" />
+                  <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0 text-purple-500" />
                   15, Robert Street, Ogunyemi Zone, Magodo Phase II Lagos
                 </p>
               </div>
@@ -153,18 +153,18 @@ export default function ContactPage() {
 
             {/* Contact Details */}
             <div className="text-center md:text-left" data-aos="fade-up" data-aos-delay="200">
-              <h3 className="text-xl font-bold text-blue-600 mb-4">Address</h3>
+              <h3 className="text-xl font-bold text-purple-500 mb-4">Address</h3>
               <div className="space-y-2 text-gray-700">
                 <p className="flex items-center justify-center md:justify-start">
-                  <Phone className="h-4 w-4 mr-2 text-blue-600" />
+                  <Phone className="h-4 w-4 mr-2 text-purple-500" />
                   +2348063568535
                 </p>
                 <p className="flex items-center justify-center md:justify-start">
-                  <Phone className="h-4 w-4 mr-2 text-blue-600" />
+                  <Phone className="h-4 w-4 mr-2 text-purple-500" />
                   +2348063530701
                 </p>
                 <p className="flex items-center justify-center md:justify-start">
-                  <Mail className="h-4 w-4 mr-2 text-blue-600" />
+                  <Mail className="h-4 w-4 mr-2 text-purple-500" />
                   info@outsourceproltd.com
                 </p>
               </div>
@@ -172,15 +172,15 @@ export default function ContactPage() {
 
             {/* Social Media */}
             <div className="text-center md:text-left" data-aos="fade-up" data-aos-delay="300">
-              <h3 className="text-xl font-bold text-blue-600 mb-4">Our Socials</h3>
+              <h3 className="text-xl font-bold text-purple-500 mb-4">Our Socials</h3>
               <div className="flex space-x-4 justify-center md:justify-start">
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link href="#" className="text-gray-500 hover:text-purple-500 transition-colors">
                   <Facebook className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link href="#" className="text-gray-500 hover:text-purple-500 transition-colors">
                   <Twitter className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link href="#" className="text-gray-500 hover:text-purple-500 transition-colors">
                   <Instagram className="h-6 w-6" />
                 </Link>
               </div>
@@ -192,7 +192,7 @@ export default function ContactPage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="600">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
             <div className="space-y-4">
               <Image
                 src="/placeholder.svg?height=40&width=150"

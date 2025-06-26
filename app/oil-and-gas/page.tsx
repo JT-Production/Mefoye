@@ -46,7 +46,7 @@ export default function OilAndGasPage() {
       <section className="relative bg-white overflow-hidden">
         {/* Green accent element */}
         <div
-          className="absolute top-0 right-0 w-64 h-64 bg-green-400 rounded-full transform translate-x-32 -translate-y-32"
+          className="absolute top-0 right-0 w-64 h-64 bg-purple-400 rounded-full transform translate-x-32 -translate-y-32"
           data-aos="fade-left"
           data-aos-duration="1000"
         ></div>
@@ -173,18 +173,18 @@ export default function OilAndGasPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-purple-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up" data-aos-duration="800">
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Oil & Gas Operations?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
             Partner with Nigeria's leading oil and gas consulting firm. Let our expertise drive your success in the
             energy sector.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center" data-aos="fade-up" data-aos-delay="200">
-            <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
+            <button className="bg-white text-purple-500 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
               Get Consultation
             </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+            <button className="border-2 border-white text-white hover:bg-white hover:text-purple-500 px-8 py-3 rounded-lg font-semibold transition-colors">
               Download Brochure
             </button>
           </div>

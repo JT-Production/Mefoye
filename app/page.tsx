@@ -99,23 +99,23 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-50 to-blue-100 overflow-hidden ">
-        <div className="absolute inset-0">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-600 to-blue-500 transform skew-x-12 translate-x-1/4"></div>
+      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden h-screen ">
+        <div className="absolute inset-0 md:block hidden">
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-500 to-purple-300 transform skew-x-12 translate-x-1/4"></div>
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-0">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:py-0 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8" data-aos="fade-right" data-aos-duration="1000">
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Everything your business <span className="text-blue-600">needs</span> in one place
+                  Everything your business <span className="text-purple-500">needs</span> in one place
                 </h1>
-                <p className="text-xl text-gray-600 max-w-lg">
+                <p className="text-xl text-gray-500 max-w-lg">
                   Your trusted partner for comprehensive business solutions
                 </p>
               </div>
               <div data-aos="fade-up" data-aos-delay="300">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                <Button size="lg" className="bg-purple-500 hover:bg-purple-300 text-white px-8 py-3">
                   Get started today
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
@@ -124,13 +124,13 @@ export default function HomePage() {
                 Your success is our priority
               </p>
             </div>
-            <div className="relative" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div className="relative md:block hidden" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
               <Image
                 src="/images/firm2-slider-man.png"
                 alt="Professional businessman"
                 width={500}
-                height={600}
-                className="w-full h-600"
+                height={500}
+                className="w-full h-500"
               />
             </div>
           </div>
@@ -145,8 +145,8 @@ export default function HomePage() {
               <Image
                 src="/images/Talent.png"
                 alt="Professional woman"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -158,15 +158,15 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold text-gray-900">
                   Your Trusted Partner for Comprehensive Business Solutions
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-500 leading-relaxed">
                   At OutSource Pro Limited, we specialize in delivering top-tier outsourcing services designed to
                   enhance your business efficiency and drive sustainable growth. With a commitment to excellence,
                   innovation, and client satisfaction, we provide tailored solutions that meet your unique business
                   needs across various operations and sustainable services.
                 </p>
               </div>
-              <div data-aos="fade-up" data-aos-delay="400">
-                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+              <div data-aos="fade-up" data-aos-delay="500">
+                <Button variant="outline" className="border-purple-500 text-purple-500 hover:bg-purple-50">
                   About us
                 </Button>
               </div>
@@ -188,7 +188,7 @@ export default function HomePage() {
                 className="group hover:shadow-lg transition-shadow duration-300"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
-                data-aos-duration="600"
+                data-aos-duration="500"
               >
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
@@ -202,7 +202,7 @@ export default function HomePage() {
                   </div>
                   <div className="p-6">
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.title}</h3>
-                    <p className="text-gray-600 text-sm">{service.description}</p>
+                    <p className="text-gray-500 text-sm">{service.description}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -212,7 +212,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-purple-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-8" data-aos="fade-up">
@@ -225,20 +225,20 @@ export default function HomePage() {
                   className="text-center"
                   data-aos="fade-up"
                   data-aos-delay={index * 150}
-                  data-aos-duration="600"
+                  data-aos-duration="500"
                 >
                   <h3 className="text-xl font-semibold mb-4">{item.title}</h3>
-                  <p className="text-blue-100">{item.description}</p>
+                  <p className="text-purple-100">{item.description}</p>
                 </div>
               ))}
             </div>
-            <div className="mt-12" data-aos="fade-up" data-aos-delay="600">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <div className="mt-12" data-aos="fade-up" data-aos-delay="500">
+              <Button size="lg" className="bg-white text-purple-500 hover:bg-gray-100">
                 Get started today
               </Button>
             </div>
             <div className="mt-8 text-center" data-aos="fade-up" data-aos-delay="800">
-              <p className="text-blue-100">
+              <p className="text-purple-100">
                 Let OutSource Pro Limited transform your business operations with reliable, scalable, and innovative
                 business solutions.
               </p>
@@ -253,7 +253,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6" data-aos="fade-right" data-aos-duration="800">
               <h2 className="text-4xl font-bold text-gray-900">Together we can do more. Feel free to say hello.</h2>
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+              <Button size="lg" className="bg-purple-500 hover:bg-purple-300 text-white">
                 Contact us
               </Button>
             </div>
@@ -262,7 +262,7 @@ export default function HomePage() {
                 src="/images/IT.png"
                 alt="Professional consultation"
                 width={500}
-                height={400}
+                height={500}
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -271,22 +271,22 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
+      <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="600">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
             <div className="space-y-4">
               <Image
-                src="/placeholder.svg?height=40&width=150"
+                src="/images/Mefeyo-logo2.png"
                 alt="OutSource Pro Limited"
                 width={150}
                 height={40}
-                className="h-8 w-auto"
+                className=" w-100"
               />
-              <p className="text-gray-400">Excellence. Efficiency. Expertise.</p>
+              {/* <p className="">Excellence. Efficiency. Expertise.</p> */}
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Office Address</h3>
-              <div className="space-y-2 text-gray-400">
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Office Address</h3>
+              <div className="space-y-2">
                 <p className="flex items-start">
                   <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
                   16, Gbemi Oluwa Close, Lekki, Lagos State, Nigeria
@@ -294,30 +294,30 @@ export default function HomePage() {
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Address</h3>
-              <div className="space-y-2 text-gray-400">
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Address</h3>
+              <div className="space-y-2 ">
                 <p>Phone: +234(0)8033445566</p>
                 <p>Email: info@outsourceproltd.com</p>
                 <p>Website: www.outsourceproltd.com</p>
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Our Socials</h3>
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Our Socials</h3>
               <div className="flex space-x-4">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Facebook className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Twitter className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Linkedin className="h-6 w-6" />
                 </Link>
               </div>
             </div>
           </div>
           <div
-            className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+            className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
             data-aos="fade-up"
             data-aos-delay="200"
           >

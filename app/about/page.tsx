@@ -11,23 +11,23 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-50 to-blue-100 overflow-hidden">
+      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-blue-600 to-blue-500 transform skew-x-12 translate-x-1/4"></div>
+          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-500 to-purple-300 transform skew-x-12 translate-x-1/4"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8" data-aos="fade-right" data-aos-duration="1000">
               <div className="space-y-6">
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  We offer <span className="text-blue-600">a variety of services</span> to boost your business
+                  We offer <span className="text-purple-500">a variety of services</span> to boost your business
                 </h1>
-                <div className="space-y-4 text-gray-600 text-lg">
+                <div className="space-y-4 text-gray-500 text-lg">
                   <p data-aos="fade-up" data-aos-delay="300">
                     Outsource Pro Limited is a premier Nigerian firm delivering comprehensive onshore and offshore
                     outsourcing solutions designed to meet the dynamic operational demands of the oil and gas industry.
                   </p>
-                  <p data-aos="fade-up" data-aos-delay="500">
+                  <p data-aos="fade-up" data-aos-delay="300">
                     The company provides expert support across key business functions, including tender and contract
                     management, human resources, finance and accounting, technical and soft-skill training—enhancing
                     workforce capacity both at onshore facilities and offshore installations.
@@ -39,8 +39,8 @@ export default function AboutPage() {
               <Image
                 src="/images/firm2-slider-man.png"
                 alt="Professional businessman"
-                width={500}
-                height={600}
+                width={300}
+                height={500}
                 className="w-full h-auto"
               />
             </div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
       </section>
 
       {/* Industry Focus Section */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-purple-500 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up" data-aos-duration="800">
           <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
             Outsource Pro focuses on a wide range of industries, reflecting its versatile service offering:
@@ -60,7 +60,7 @@ export default function AboutPage() {
       {/* Services Description */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-12 text-gray-600 text-lg leading-relaxed">
+          <div className="space-y-12 text-gray-500 text-lg leading-relaxed">
             <p data-aos="fade-up" data-aos-delay="100">
               In addition, Outsource Pro Limited specializes in expatriate and immigration services for oil and gas
               personnel, including work permits, visa renewals, and compliance with all statutory immigration
@@ -90,8 +90,8 @@ export default function AboutPage() {
               <Image
                 src="/images/firm2-slider-man.png"
                 alt="Professional businessman with tablet"
-                width={500}
-                height={600}
+                width={300}
+                height={500}
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -99,14 +99,14 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold text-gray-900">
                 We are here to support all kinds of businesses – from startups to international corporations
               </h2>
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-gray-500 text-lg leading-relaxed">
                 Our diverse range of services is structured to meet the evolving needs of modern businesses, from talent
                 acquisition and payroll management to IT support and expatriate services. By leveraging industry
                 expertise and cutting-edge strategies, we empower organizations to focus on their core objectives while
                 we handle the complexities of workforce and operational management.
               </p>
               <div data-aos="fade-up" data-aos-delay="400">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white">Contact us</Button>
+                <Button className="bg-purple-500 hover:bg-purple-700 text-white">Contact us</Button>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16" data-aos="fade-up">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Company Policies</h2>
-            <p className="text-gray-600 text-lg">Outsource Pro is governed by a strong internal framework:</p>
+            <p className="text-gray-500 text-lg">Outsource Pro is governed by a strong internal framework:</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -126,14 +126,14 @@ export default function AboutPage() {
             <div className="space-y-8" data-aos="fade-right" data-aos-duration="800">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-                <p className="text-gray-600 italic text-lg">
+                <p className="text-gray-500 italic text-lg">
                   "Focused statement on service commitment, client satisfaction, and impact."
                 </p>
               </div>
 
               <div data-aos="fade-up" data-aos-delay="200">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Mission Statement</h3>
-                <div className="space-y-4 text-gray-600">
+                <div className="space-y-4 text-gray-500">
                   <p>
                     "At Outsource Pro, we empower businesses with a full spectrum of world-class services — from
                     staffing and payroll management to training, facility solutions, travel logistics, and IT support.
@@ -150,14 +150,14 @@ export default function AboutPage() {
             <div className="space-y-8" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
-                <p className="text-gray-600 italic text-lg">
+                <p className="text-gray-500 italic text-lg">
                   "Clear long-term ambition that shapes strategy and service delivery."
                 </p>
               </div>
 
               <div data-aos="fade-up" data-aos-delay="400">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Vision Statement</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-500">
                   "To be the leading force in Africa's business evolution — delivering integrated talent, technology,
                   and operational support that powers organizations to scale, innovate, and thrive in a dynamic world."
                 </p>
@@ -170,7 +170,7 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="600">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
             <div className="space-y-4">
               <Image
                 src="/placeholder.svg?height=40&width=150"

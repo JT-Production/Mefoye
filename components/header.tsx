@@ -52,7 +52,7 @@ export default function Header({ currentPage }: HeaderProps) {
                 key={item.name}
                 href={item.href}
                 className={`font-medium transition-colors ${
-                  isActive(item.href) ? "text-[#644589] hover:text-[#3d2b51]" : "text-gray-700 hover:text-blue-600"
+                  isActive(item.href) ? "text-purple-500 hover:text-purple-700" : "text-gray-700 hover:text-purple-300"
                 }`}
               >
                 {item.name}
