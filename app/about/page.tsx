@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react"
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 import Header from "@/components/header"
 
 export default function AboutPage() {
@@ -11,8 +11,8 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden">
-        <div className="absolute inset-0">
+      <section className="relative bg-gradient-to-r from-purple-50 to-purple-100 overflow-hidden h-screen">
+        <div className="absolute inset-0 md:block hidden">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-500 to-purple-300 transform skew-x-12 translate-x-1/4"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-0">
@@ -22,7 +22,7 @@ export default function AboutPage() {
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   We offer <span className="text-purple-500">a variety of services</span> to boost your business
                 </h1>
-                <div className="space-y-4 text-gray-500 text-lg">
+                <div className="space-y-4 text-gray-500 text-lg md:text-start ">
                   <p data-aos="fade-up" data-aos-delay="300">
                     Outsource Pro Limited is a premier Nigerian firm delivering comprehensive onshore and offshore
                     outsourcing solutions designed to meet the dynamic operational demands of the oil and gas industry.
@@ -35,7 +35,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-            <div className="relative" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div className="relative md:block hidden" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
               <Image
                 src="/images/firm2-slider-man.png"
                 alt="Professional businessman"
@@ -168,66 +168,57 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
+      <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
             <div className="space-y-4">
               <Image
-                src="/placeholder.svg?height=40&width=150"
+                src="/images/Mefeyo-logo2.png"
                 alt="OutSource Pro Limited"
                 width={150}
                 height={40}
-                className="h-8 w-auto"
+                className=" w-100"
               />
-              <p className="text-gray-400">Excellence. Efficiency. Expertise.</p>
+              {/* <p className="">Excellence. Efficiency. Expertise.</p> */}
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Office Address</h3>
-              <div className="space-y-2 text-gray-400">
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Office Address</h3>
+              <div className="space-y-2">
                 <p className="flex items-start">
                   <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                  15, Robert Street, Ogunyemi Zone, Magodo Phase II Lagos
+                  16, Gbemi Oluwa Close, Lekki, Lagos State, Nigeria
                 </p>
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Address</h3>
-              <div className="space-y-2 text-gray-400">
-                <p className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2" />
-                  +2348063568535
-                </p>
-                <p className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2" />
-                  +2348063530701
-                </p>
-                <p className="flex items-center">
-                  <Mail className="h-4 w-4 mr-2" />
-                  info@outsourceproltd.com
-                </p>
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Address</h3>
+              <div className="space-y-2 ">
+                <p>Phone: +234(0)8033445566</p>
+                <p>Email: info@mefoyeltd.com</p>
+                <p>Website: www.mefoyeltd.com</p>
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Our Socials</h3>
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Our Socials</h3>
               <div className="flex space-x-4">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Facebook className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Twitter className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  <Instagram className="h-6 w-6" />
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
+                  <Linkedin className="h-6 w-6" />
                 </Link>
               </div>
             </div>
           </div>
           <div
-            className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+            className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <p>&copy; 2024 OutSource Pro | All Rights Reserved</p>
+            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>

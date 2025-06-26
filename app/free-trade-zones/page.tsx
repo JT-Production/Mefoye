@@ -11,6 +11,7 @@ import {
   Building,
   Globe,
   TrendingUp,
+  Linkedin,
 } from "lucide-react"
 import Header from "@/components/header"
 
@@ -338,66 +339,57 @@ export default function FreeTradeZonesPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
+      <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-duration="500">
             <div className="space-y-4">
               <Image
-                src="/placeholder.svg?height=40&width=150"
+                src="/images/Mefeyo-logo2.png"
                 alt="OutSource Pro Limited"
                 width={150}
                 height={40}
-                className="h-8 w-auto"
+                className=" w-100"
               />
-              <p className="text-gray-400">Excellence. Efficiency. Expertise.</p>
+              {/* <p className="">Excellence. Efficiency. Expertise.</p> */}
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Office Address</h3>
-              <div className="space-y-2 text-gray-400">
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Office Address</h3>
+              <div className="space-y-2">
                 <p className="flex items-start">
                   <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                  15, Robert Street, Ogunyemi Zone, Magodo Phase II Lagos
+                  16, Gbemi Oluwa Close, Lekki, Lagos State, Nigeria
                 </p>
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Address</h3>
-              <div className="space-y-2 text-gray-400">
-                <p className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2" />
-                  +2348063568535
-                </p>
-                <p className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2" />
-                  +2348063530701
-                </p>
-                <p className="flex items-center">
-                  <Mail className="h-4 w-4 mr-2" />
-                  info@outsourceproltd.com
-                </p>
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Address</h3>
+              <div className="space-y-2 ">
+                <p>Phone: +234(0)8033445566</p>
+                <p>Email: info@mefoyeltd.com</p>
+                <p>Website: www.mefoyeltd.com</p>
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Our Socials</h3>
+              <h3 className="text-lg font-semibold mb-4 text-purple-500">Our Socials</h3>
               <div className="flex space-x-4">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Facebook className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
                   <Twitter className="h-6 w-6" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
-                  <Instagram className="h-6 w-6" />
+                <Link href="#" className="hover:text-purple-300 text-purple-500 p-2 rounded-md bg-white">
+                  <Linkedin className="h-6 w-6" />
                 </Link>
               </div>
             </div>
           </div>
           <div
-            className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+            className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <p>&copy; 2024 OutSource Pro | All Rights Reserved</p>
+            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>

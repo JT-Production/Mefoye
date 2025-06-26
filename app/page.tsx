@@ -297,8 +297,8 @@ export default function HomePage() {
               <h3 className="text-lg font-semibold mb-4 text-purple-500">Address</h3>
               <div className="space-y-2 ">
                 <p>Phone: +234(0)8033445566</p>
-                <p>Email: info@outsourceproltd.com</p>
-                <p>Website: www.outsourceproltd.com</p>
+                <p>Email: info@mefoyeltd.com</p>
+                <p>Website: www.mefoyeltd.com</p>
               </div>
             </div>
             <div>
@@ -321,7 +321,7 @@ export default function HomePage() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <p>&copy; 2024 OutSource Pro Limited. All rights reserved.</p>
+            <p>&copy; 2025 OutSource Pro Limited. All rights reserved.</p>
           </div>
         </div>
       </footer>
