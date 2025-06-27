@@ -9,7 +9,7 @@ export default function HomePage() {
   const services = [
     {
       title: "Team/Staff Resizing",
-      image: "/images/Hub.png",
+      image: "/images/Team.jpg",
       description: "Optimize your workforce with strategic team restructuring",
     },
     {
@@ -29,12 +29,12 @@ export default function HomePage() {
     },
     {
       title: "Competency Assessment",
-      image: "/images/Competency.png",
+      image: "/images/competency.png",
       description: "Evaluate and measure employee skills and capabilities",
     },
     {
       title: "Clean Space & Janitorial Services",
-      image: "/images/Cleaning.png",
+      image: "/images/cleaning.png",
       description: "Professional cleaning and maintenance services",
     },
     {
@@ -44,7 +44,7 @@ export default function HomePage() {
     },
     {
       title: "Travel Solutions",
-      image: "/images/Travel.png",
+      image: "/images/travel.png",
       description: "Complete corporate travel management",
     },
     {
